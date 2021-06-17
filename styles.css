@@ -1,0 +1,37 @@
+body{
+background-color: #DEEEEA;
+text-align: center;
+margin-left: 5rem;
+margin-right: 5rem;
+font-family: 'Lato', sans-serif;
+}
+
+.big-heading{
+padding-top: 3rem;
+font-family: 'Pacifico', cursive;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+.r,.s{
+padding-right: 3rem;
+}
+
+.mara{
+padding-top: 3rem;
+padding-bottom: 2rem;
+padding-left: 0.9rem;
+}
+
+.mynav1{
+margin-left: 2rem;
+}
+
+#first,#third{
+position:absolute;
+}
+
+#second,#fourth{
+position: relative;
+top: 9px;
+}

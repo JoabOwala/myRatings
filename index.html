@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Favourite Football Player</title>
+		<!-- CSS Stylesheet -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<!-- Bootstrap Scripts -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+		
+		<!--  Google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/ec6ab51635.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<h2 class="big-heading">My Favourite Sports <i class="fas fa-running"></i></h2>
+		<div class="row g-3 mara">
+			<div class="s" class="col-auto">
+				Sports <input id="movie" type="text" name="" placeholder="Sport title">
+			</div>
+			<div class="r" class="col-auto">
+				Ratings <input id="rating" type="text" name="" placeholder="Rate the sport (0 - 10)">
+			</div>
+			<div class="b" class="col-auto">
+				<button type="button" id="updateButton" class="btn btn-primary" onclick="addValue();">Add</button>
+			</div>
+			
+		</div>
+		<table id="myTable" class="table table-bordered table-condensed table-striped">
+			<thead>
+				<tr>
+					<th class="col-6">Sports &nbsp&nbsp<i class="fas fa-angle-up" id="first"></i><i class="fas fa-angle-down" id="second"></i></th>
+					<th class="col-3">Ratings &nbsp&nbsp<i class="fas fa-angle-up" id="third"></i><i class="fas fa-angle-down" id="fourth"></i></th></th>
+					<th class="col-3">Delete</th>
+				</tr>
+			</thead>
+		</table>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="myjs.js" type="text/javascript"></script>
+	</body>
+</html>
