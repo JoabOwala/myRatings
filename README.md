@@ -1,0 +1,2 @@
+# myRatings
+A ratings app
