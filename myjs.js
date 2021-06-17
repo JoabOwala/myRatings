@@ -38,7 +38,7 @@ $(ctl).parents("tr").remove();
 
 
 $("#first").on("click", function(){
-var tbody = $("#table-body"),
+var tbody = document.getElementById("table-body"),
 childNodes = tbody.childNodes,
 i = childNodes.length;
 
@@ -46,7 +46,7 @@ while (i--)
 tbody.appendChild(childNodes[i]);
 });
 $("#second").on("click", function(){
-var tbody = $("#table-body"),
+var tbody = document.getElementById("table-body"),
 childNodes = tbody.childNodes,
 i = childNodes.length;
 
@@ -54,7 +54,7 @@ while (i--)
 tbody.appendChild(childNodes[i]);
 });
 $("#third").on("click", function(){
-var tbody = $("#table-body"),
+var tbody = document.getElementById("table-body"),
 childNodes = tbody.childNodes,
 i = childNodes.length;
 
@@ -62,7 +62,7 @@ while (i--)
 tbody.appendChild(childNodes[i]);
 });
 $("#fourth").on("click", function(){
-var tbody = $("#table-body"),
+var tbody = document.getElementById("table-body"),
 childNodes = tbody.childNodes,
 i = childNodes.length;
 
